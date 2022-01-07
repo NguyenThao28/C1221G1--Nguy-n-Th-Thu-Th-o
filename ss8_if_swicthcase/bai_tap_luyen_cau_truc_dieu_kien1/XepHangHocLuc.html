@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hạng học lực</title>
+</head>
+<body>
+<script>
+    let diemKiemTra = parseFloat(prompt("Nhập điểm bài kiểm tra "));
+    let diemGiuaKy = parseFloat(prompt("Nhập điểm thi giữa kỳ "));
+    let diemCuoiKy = parseFloat(prompt("Nhập điểm thi cuối kỳ "));
+    let diemTrungBinh = (diemKiemTra+diemGiuaKy+diemCuoiKy*2)/4;
+    if(diemTrungBinh>9){
+        document.write("Xếp loại xuất sắc")
+        }else if(diemTrungBinh>8){
+        document.write("Xếp loại giỏi")
+            }else if(diemTrungBinh>6.5){
+            document.write("Xếp loại khá")
+                }else if(diemTrungBinh>5){
+                document.write("Xếp loại trung bình")
+                }else{
+                    document.write("Xếp loại yếu")
+                    }
+</script>
+</body>
+</html>

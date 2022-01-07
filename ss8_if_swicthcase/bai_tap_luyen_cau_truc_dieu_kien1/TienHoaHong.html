@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiền Hoa Hồng</title>
+</head>
+<body>
+<script>
+    let doanhSoBanHang = parseInt(prompt("Nhập doanh số bán hàng "));
+    if (doanhSoBanHang>100000000){
+        document.write("Tiền Hoa Hồng nhận đươc là: " + (doanhSoBanHang*10/100))
+    }else if(doanhSoBanHang>50000000){
+        document.write("Tiền Hoa Hồng nhận đươc là: " + (doanhSoBanHang*7/100))
+    }else{
+        document.write("Tiền Hoa Hồng nhận đươc là: " + (doanhSoBanHang*5/100))
+    }
+</script>
+</body>
+</html>
