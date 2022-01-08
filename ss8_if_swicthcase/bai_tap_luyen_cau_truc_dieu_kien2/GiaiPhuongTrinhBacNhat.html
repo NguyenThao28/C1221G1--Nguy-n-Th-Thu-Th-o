@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phương trình bậc nhất</title>
+</head>
+<body>
+<h4>Giai phuong trinh bac nhat ax+b=0</h4>
+<button class="button" onclick="nhapA()">Nhap A</button>
+<button class="button" onclick="nhapB()">Nhap B</button>
+<button class="button" onclick="printResult()">In Ket Qua</button>
+<script >
+    let a, b;
+
+    function nhapA() {
+        a = prompt('Nhap A')
+    }
+
+    function nhapB() {
+        b = prompt('Nhap B')
+    }
+
+    function printResult() {
+        if(a == 0) {
+            if(b == 0) {
+                alert('Phương trình vô số nghiệm')
+            } else {
+                alert('Phương trình vô nghiệm')
+            }
+        } else {
+            let x = -b/a
+            alert(x)
+        }
+    }
+</script>
+</body>
+</html>

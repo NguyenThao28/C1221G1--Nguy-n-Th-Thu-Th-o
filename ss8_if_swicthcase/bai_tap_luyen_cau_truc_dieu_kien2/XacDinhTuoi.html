@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xác Định Tuổi</title>
+</head>
+<body>
+<h4> Nhập tuổi: </h4>
+<input type="text" name="" id="soTuoi">
+<button onclick="Tuoi()">Xác định</button>
+<h4 id="Age12"></h4>
+</body>
+<script>
+    function Tuoi(){
+    let tuoi=document.getElementById('soTuoi').value;
+    if (tuoi>0 && tuoi<120){
+        document.getElementById('Age12').innerText= "Số nhập vào là tuổi của một người";
+    }else{
+        document.getElementById('Age12').innerText= "Số nhập vào không phải tuổi của một người";
+    }
+    }
+</script>
+</html>

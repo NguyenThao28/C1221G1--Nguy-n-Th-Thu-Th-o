@@ -5,6 +5,45 @@
     <title>chuyển đổi tiền tệ</title>
 </head>
 <body>
-
+<table style="width: 600px; text-align: center";>
+    <tr>
+    <th>Amout</th>
+    <th>From Currency</th>
+    <th>To Currency</th>
+    <th></th>
+    </tr>
+    <tr>
+    <td><input type="text" id="doiTien"></td>
+    <td>
+        <select name="" id="From1" style="width: 100px">
+            <option value="a">VND</option>
+            <option value="b">USD</option>
+    </select>
+    </td>
+    <td>
+        <select name="" id="To1" style="width: 100px">
+            <option value="a">VND</option>
+            <option value="b">USD</option>
+    </select>
+    </td>
+    <td>
+        <button style="background-color: blueviolet;" onclick="ChuyenDoi()">Convert</button>
+    </td>
+    </tr>
+<script>
+    function ChuyenDoi() {
+        let soTien=document.getElementById('doiTien').value;
+        let select1=document.getElementById('From1').value;
+        let select2=document.getElementById('To1').value;
+        if(select1==select2){
+            alert(soTien);
+        }else if(select1== "a" && select2== "b"){
+            alert(soTien/23000);
+        }else{
+            alert(soTien*23000);
+        }
+    }
+</script>
+</table>
 </body>
 </html>

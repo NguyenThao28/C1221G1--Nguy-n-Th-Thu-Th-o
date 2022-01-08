@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<body>
+<h2>Calculator</h2>
+<input type="text" id="So1">
+<input type="text" id="So2"><br><br>
+<div id="pTinh"></div>
+<button value="+" onclick="nhap(this.value)" >Addition(+)</button>
+<button value="-" onclick="nhap(this.value)">Subtraction(-)</button>
+<button value="*" onclick="nhap(this.value)">Multiplication(X)</button>
+<button value="/" onclick="nhap(this.value)">Division(/)</button>
+<script>
+    function nhap(){
+    let giaTri1= document.getElementById('So1').value;
+    let giaTri2= document.getElementById('So2').value;
+    let phepTinh = document.getElementById("pTinh").value;
+    let kQua = eval('giaTri1,phepTinh,giaTri2');
+    alert(kQua);
+    }
+
+</script>
+</body>
+</html>
