@@ -6,20 +6,27 @@
 </head>
 <body>
 <script>
-    let n=1;
-    let count=0;
-    let flag=true;
-   for (let i=1;i<n;i++){
-       if (n%i==0){
-           flag=false;
+    let count=1;
+    let m=2;
+    while (1){
+        let mark=1;
+        let i;
+   for (let i=2;i <= Math.sqrt(m);i++){
+       if (m%i==0){
+           mark=0;
            break;
        }
-
    }
-
-
-
+       if ( mark==1){
+           count++;
+           document.write(m);
+           document.write("<br>");
+           }
+       if (count>20){
+           break;
+   }
+       m++;
+    }
 </script>
-
 </body>
 </html>
