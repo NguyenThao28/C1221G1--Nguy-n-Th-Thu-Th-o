@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fibonacci</title>
+    <title>Dãy số Fibonacci</title>
 </head>
 <body>
-<h4>Dãy số Fibonacci</h4>
 <script>
+    let so= parseInt(prompt("Nhập vào số lượng Fibonaci muốn in ra: "));
     let count=1;
+    let a;
     let m=0;
     let n=1;
-    let a;
-    do {
+    while (count <=so) {
         document.write(n);
         document.write("<br>");
         a=m;
@@ -19,7 +19,6 @@
         n=m+a;
         count++;
     }
-    while (count <=20)
 </script>
 </body>
 </html>

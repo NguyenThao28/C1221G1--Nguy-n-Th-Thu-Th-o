@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    // Viết chương trình tính lãi ngân hàng
+    // (lãi mẹ đẻ lại con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.
+    let soTien = parseInt(prompt("Nhập số tiền ban đầu: "));
+    let soThang= parseInt(prompt("Nhập số tháng cho vay: "));
+    let laiXuatThang = parseInt(prompt("Nhập số lãi xuất hàng tháng: "));
+    let tienLaiNganHang;
+    let tongTienThu =0;
+for(i=1;i<=soThang;i++){
+    tongTienThu=(soTien+ soTien*laiXuatThang);
+    soTien=tongTienThu;
+}
+alert(tongTienThu);
+</script>
+</body>
+</html>
