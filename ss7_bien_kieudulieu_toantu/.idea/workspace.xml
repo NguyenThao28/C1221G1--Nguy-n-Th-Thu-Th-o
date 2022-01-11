@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b836027-fd9d-4e37-8f98-19cd76b7356d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/DaySo1_100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/DaySoFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/GameDoanSo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/SoFibonacciChia5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/Tong20SoFibonacci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10_vong_lap2/luyen_tap_vong_lap1/Tong30sSoTuNhienChiaHet7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10_vong_lap2/BanggCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10_vong_lap2/BanggCuuChuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss10_vong_lap2/SoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss10_vong_lap2/SoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9_vong_lap/DoWhileSample.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9_vong_lap/DoWhileSample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9_vong_lap/VongLapLongNhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9_vong_lap/VongLapLongNhau.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23XDwelmcwmifiU7N0n1ahGOnRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b836027-fd9d-4e37-8f98-19cd76b7356d" name="Default Changelist" comment="" />
+      <created>1641871777064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641871777064</updated>
+      <workItem from="1641871778418" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
