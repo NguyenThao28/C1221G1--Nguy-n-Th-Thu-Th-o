@@ -7,16 +7,16 @@
 <body>
 <h4> Nhập tuổi: </h4>
 <input type="text" name="" id="soTuoi">
-<button onclick="Tuoi()">Xác định</button>
-<h4 id="Age12"></h4>
+<button onclick="tuoi()">Xác định</button>
+<h4 id="age"></h4>
 </body>
 <script>
-    function Tuoi(){
-    let tuoi=document.getElementById('soTuoi').value;
-    if (tuoi>0 && tuoi<120){
-        document.getElementById('Age12').innerText= "Số nhập vào là tuổi của một người";
+    function tuoi(){
+    let age=document.getElementById('soTuoi').value;
+    if (age>0 && age<120){
+        document.getElementById("age").innerText= "Số nhập vào là tuổi của một người";
     }else{
-        document.getElementById('Age12').innerText= "Số nhập vào không phải tuổi của một người";
+        document.getElementById("age").innerText= "Số nhập vào không phải tuổi của một người";
     }
     }
 </script>

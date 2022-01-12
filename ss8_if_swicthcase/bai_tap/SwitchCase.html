@@ -11,8 +11,8 @@
     <h3 id="Kq"></h3>
 <script>
     function TinhSoNgay(){
-    let thang  = parseInt(document.getElementById("Month").value);
-        switch(thang){
+    let month = parseInt(document.getElementById("Month").value);
+        switch(month){
             case 1:
             case 3:
             case 5:
@@ -20,13 +20,13 @@
             case 8:
             case 10:
             case 12:
-                document.getElementById("Kq").innerHTML=" Tháng " + thang + " có 31 ngày";
+                document.getElementById("Kq").innerHTML=" Tháng " + month + " có 31 ngày";
            break;
            case 2:
-               document.getElementById("Kq").innerHTML=" Tháng " + thang + " có 28 hoặc 29 ngày";
+               document.getElementById("Kq").innerHTML=" Tháng " + month + " có 28 hoặc 29 ngày";
                break;
             default :
-                document.getElementById("Kq").innerHTML=" Tháng " + thang + " có 30 ngày";
+                document.getElementById("Kq").innerHTML=" Tháng " + month + " có 30 ngày";
         }
     }
 </script>

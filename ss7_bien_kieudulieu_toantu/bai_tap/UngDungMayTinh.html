@@ -6,22 +6,21 @@
 </head>
 <body>
 <h2>Calculator</h2>
-<input type="text" id="So1">
-<input type="text" id="So2"><br><br>
-<div id="pTinh"></div>
+<input type="text" id="number1">
+<input type="text" id="number2"><br><br>
+<div id="calculation"></div>
 <button value="+" onclick="nhap(this.value)" >Addition(+)</button>
 <button value="-" onclick="nhap(this.value)">Subtraction(-)</button>
 <button value="*" onclick="nhap(this.value)">Multiplication(X)</button>
 <button value="/" onclick="nhap(this.value)">Division(/)</button>
 <script>
     function nhap(){
-    let giaTri1= document.getElementById('So1').value;
-    let giaTri2= document.getElementById('So2').value;
-    let phepTinh = document.getElementById("pTinh").value;
-    let kQua = eval('giaTri1,phepTinh,giaTri2');
-    alert(kQua);
+    let giaTri1= document.getElementById('number1').value;
+    let giaTri2= document.getElementById('number2').value;
+    let phepTinh = document.getElementById("calculation").value;
+    let result = eval('giaTri1,phepTinh,giaTri2');
+    alert(result);
     }
-
 </script>
 </body>
 </html>

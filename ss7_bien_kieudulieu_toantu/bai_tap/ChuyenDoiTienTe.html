@@ -5,7 +5,7 @@
     <title>chuyển đổi tiền tệ</title>
 </head>
 <body>
-<table style="width: 600px; text-align: center";>
+<table style="width: 600px; text-align: center">
     <tr>
     <th>Amout</th>
     <th>From Currency</th>
@@ -15,15 +15,15 @@
     <tr>
     <td><input type="text" id="doiTien"></td>
     <td>
-        <select name="" id="From1" style="width: 100px">
-            <option value="a">VND</option>
-            <option value="b">USD</option>
+        <select id="from" style="width: 100px">
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
     </select>
     </td>
     <td>
-        <select name="" id="To1" style="width: 100px">
-            <option value="a">VND</option>
-            <option value="b">USD</option>
+        <select id="to" style="width: 100px">
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
     </select>
     </td>
     <td>
@@ -33,11 +33,11 @@
 <script>
     function ChuyenDoi() {
         let soTien=document.getElementById('doiTien').value;
-        let select1=document.getElementById('From1').value;
-        let select2=document.getElementById('To1').value;
+        let select1=document.getElementById('from').value;
+        let select2=document.getElementById('to').value;
         if(select1==select2){
             alert(soTien);
-        }else if(select1== "a" && select2== "b"){
+        }else if(select1== "VND" && select2== "USD"){
             alert(soTien/23000);
         }else{
             alert(soTien*23000);
