@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sắp xếp mảng giảm dần</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử.-->
+<!--Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.-->
+<script>
+    let num=prompt("Nhập vào một dãy số gồm 10 phần tử: ");
+    let str=num.split(",");
+    for(i=0; i<str.length;i++){
+        str.sort(function (x,y) {
+            return y-x;
+        });
+    }
+    document.write("Mảng sắp xếp theo thứ tự giảm dần là: "+str);
+</script>
+</body>
+</html>

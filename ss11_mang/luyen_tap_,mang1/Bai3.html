@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính  giá trị trung bình các phần tử trong mảng</title>
+</head>
+<body>
+<script>
+    let str=[3,23,14,5,16,47,25,24]
+    max=0;
+    sum=0;
+    for(let i=0;i<str.length;i++){
+        sum+=str[i];
+        if(str[i]>max){
+            max=str[i];
+        }
+    }
+    document.write("Giá trị lớn nhất là: "+ max);
+    document.write("<br>");
+    document.write("Giá trị trung bình của dãy số là: "+ sum/str.length);
+</script>
+</body>
+</html>

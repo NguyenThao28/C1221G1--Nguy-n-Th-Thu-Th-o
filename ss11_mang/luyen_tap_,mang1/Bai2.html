@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị lớn nhất trong mảng</title>
+</head>
+<body>
+<script>
+    let str=[12,3,67,12,145,67,13,9,14,25];
+    max=str[0];
+    for (let i=1; i<str.length;i++){
+        if(str[i]>max){
+            max=str[i]
+        }
+    }
+    document.write("Giá trị lớn nhất trong dãy số là: " + max+ " tại vị trí index "+ str.indexOf(max));
+</script>
+</body>
+</html>

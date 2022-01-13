@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số từ trong một chuỗi</title>
+</head>
+<body>
+<!--Viết một chương trình để đếm số từ trong một chuỗi-->
+<script>
+    let str = prompt("Nhập vào một chuỗi: ");
+    let str1=str.value.strim();
+    let str2=str1.replace(/\s+/g, ' ');
+    let totalWord = 0;
+    for (let i = 0; i < str2.length; i++){
+        if (str2(i) === " ") {
+            totalWord = +1;
+        }
+        totalWord += 1;
+    }
+    document.write("Số từ trong chuỗi là: " + totalWord);
+
+</script>
+</body>
+</html>

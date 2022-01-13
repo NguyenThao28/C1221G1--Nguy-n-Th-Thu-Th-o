@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số kí tự số trong mảng</title>
+</head>
+<body>
+<script>
+    // Viết một chương trình khai báo một mảng ký tự và kích thước của mảng.
+    //     Chương trình này đếm số ký tự số trong mảng.
+        let arr= [1,2,3,4,"a","b","c",7,8,9,"d","e","f","g"];
+        let num="0123456789";
+        let count=0;
+        for(let i =0; i<arr.length; i++)
+    {
+        if(num.indexOf(arr[i]) !== -1){
+            count++;
+        }
+    }
+        document.write("Số kí tự số trong chuỗi là: " +count);
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xóa và thêm phần tử của mảng</title>
+</head>
+<body>
+<!--// Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.-->
+<!--//     Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng-->
+<script>
+    let num=prompt("Nhập vào một dãy số gồm 10 phần tử: ");
+    let str=num.split(",");
+    let v=parseInt(prompt("Nhập số nguyên V: "));
+    for(let i=0; i<str.length;i++){
+        if(str[i] == v){
+            str.splice(i,1);
+            str.push(0);
+            i--;
+        }
+    }
+    document.write("Dãy số sau khi xử lý là: " + str);
+</script>
+</body>
+</html>

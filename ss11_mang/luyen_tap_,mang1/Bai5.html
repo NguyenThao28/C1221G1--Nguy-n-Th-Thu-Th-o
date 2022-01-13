@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số nguyên âm</title>
+</head>
+<body>
+<script>
+    let count=0;
+    // Viết chương trình đếm số nguyên âm trong một chuỗi
+    let str=[23,10,-4,39,-12,-49,40,-6,5,-2];
+    for(let i=0;i<str.length;i++){
+        if (str[i]<0){
+            count++;
+        }
+    }
+    document.write("Số phần tử là số nguyên âm là: " + count);
+</script>
+</body>
+</html>

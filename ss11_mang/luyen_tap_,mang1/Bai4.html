@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đảo ngược các phần tử trong dãy số</title>
+</head>
+<body>
+<script>
+    // Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+        let num=prompt("Nhập vào các phần tử số nguyên ngăn cách bởi dấu phẩy: ");
+        document.write("Dãy số ban đầu là: " + num + "<br>");
+        let str=num.split(",");
+        let first=0;
+        let last=str.length-1;
+        while(first<last){
+            let a = str[first];
+            str[first]=str[last];
+            str[last]=a;
+            first++;
+            last--;
+        }
+        document.write("Dãy số đảo ngược là: "+ str);
+</script>
+</body>
+</html>
