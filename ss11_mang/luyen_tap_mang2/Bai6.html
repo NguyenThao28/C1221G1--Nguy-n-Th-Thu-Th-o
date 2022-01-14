@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thay thế kí tự trong mảng</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhâp vào độ dài của mảng: ");
+    n = parseInt(n);
+    let arry = new Array(n)
+    for (let i = 0; i <arry.length ; i++) {
+        arry[i] = (prompt("Nhập phần tử thứ : " + i));
+    }
+    for (let i = 0; i <arry.length ; i++) {
+        if(arry[i]=="-"){
+            arry[i]="_";
+        }
+    }
+    alert(arry);
+</script>
+</body>
+</html>
