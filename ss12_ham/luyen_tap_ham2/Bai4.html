@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra ký tự</title>
+</head>
+<body>
+<!--Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.-->
+<!--Nếu là ký tự số hàm trả về true, ngược lại trả về false.-->
+<script>
+    function kiemTraSo(n) {
+        let flag=true;
+            if(!isNaN(n)){
+                flag=true;
+            }else{
+                flag=false;
+            }
+            return flag;
+        }
+    let giaTri= prompt("Nhập vào một ký tự");
+    let result = kiemTraSo(giaTri);
+    document.write(result);
+</script>
+</body>
+</html>

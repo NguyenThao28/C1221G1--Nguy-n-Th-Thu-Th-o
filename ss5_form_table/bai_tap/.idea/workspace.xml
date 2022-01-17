@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8b99f2-a3e0-4fb4-a559-ead4d4d392d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/bai_tap/ChuyenDoiFeetMeter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/bai_tap/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/bai_tap/QuanLySanPham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai4.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/thuc_hanh/GiaTriNhoNhatCuaMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss10_vong_lap2/SoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_vong_lap2/SoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_mang/luyen_tap_mang2/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_mang/luyen_tap_mang2/Bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bai_tap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_bien_kieudulieu_toantu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_bien_kieudulieu_toantu/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_bien_kieudulieu_toantu/.idea/ss7_bien_kieudulieu_toantu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_bien_kieudulieu_toantu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss7_bien_kieudulieu_toantu/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,8 @@
       <workItem from="1642037196219" duration="4243000" />
       <workItem from="1642041468467" duration="21545000" />
       <workItem from="1642123869432" duration="1466000" />
-      <workItem from="1642134731353" duration="10962000" />
+      <workItem from="1642134731353" duration="12445000" />
+      <workItem from="1642382513266" duration="24184000" />
     </task>
     <servers />
   </component>
@@ -122,9 +120,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1641281859243" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642038557379">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642404017624">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1642038557379" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1642404017624" />
   </component>
 </project>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gọi Hàm</title>
+</head>
+<body>
+<!--Tạo hàm nhận vào một đối số dạng số, tăng giá trị đối số đó lên 1 và trả lại giá trị-->
+<!--cho lời gọi hàm.-->
+<script>
+    function tangGiatri(n) {
+        n=n+1;
+        return n;
+    }
+    let num= parseInt(prompt("Nhập vào môt số: "));
+    num= tangGiatri(num);
+    document.write("Kết quả là: " + num);
+</script>
+</body>
+</html>

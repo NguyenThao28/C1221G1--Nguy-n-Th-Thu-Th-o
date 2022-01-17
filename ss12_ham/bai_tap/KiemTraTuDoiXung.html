@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra từ đối xứng</title>
+</head>
+<body>
+
+<!--Phương thức isPalindrome() trả về true nếu chuỗi truyền vào là chuỗi đối xứng. Còn lại trả về false-->
+<!--Kiểm tra xem ký tự đầu tiên và ký tự cuối cùng của chuỗi có bằng nhau.-->
+<!--(2) Bỏ qua hai ký tự đầu và cuối, kiểm tra xem phần còn lại của chuỗi con là một palindrome.-->
+<!--Bài toán con thứ hai (2) giống như vấn đề ban đầu nhưng nhỏ hơn về kích thước.-->
+<script>
+    function isPalindrome(s){
+        let arr1=s.split();
+        let arr2=s.split();
+        arr2=arr2.reverse();
+        let flag=true;
+        for (let i=0;i<arr1.length;i++){
+            if(arr1[i]!==arr2[i]){
+                flag=false;
+            }
+        }
+        return flag;
+    }
+    let str=prompt("Nhập vào một chuỗi");
+    let result=isPalindrome(str);
+    alert(result);
+</script>
+</body>
+</html>

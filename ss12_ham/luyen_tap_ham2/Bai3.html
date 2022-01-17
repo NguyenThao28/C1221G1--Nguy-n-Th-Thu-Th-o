@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính Giai Thừa</title>
+</head>
+<body>
+<!--Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.-->
+<script>
+ function tinhGiaiThua(n) {
+     let result=1;
+     if (n<0){
+         document.write("Không tồn tại giai thừa của một số nguyên âm");
+     }else if(n==0){
+         document.write("Giai thừa của " +n + " là : " +1);
+     }else{
+         for( let i=n; i>0;i--){
+             result=result*i;
+         }
+         document.write("Giai thừa của " +n + " là: "+result);
+     }
+ }
+ let num =parseInt(prompt("Nhập vào một số: "));
+ let ketQua= tinhGiaiThua(num);
+</script>
+</body>
+</html>

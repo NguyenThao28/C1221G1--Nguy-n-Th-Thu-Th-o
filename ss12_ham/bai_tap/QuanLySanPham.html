@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sản phẩm</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="nhap" placeholder="New Product">
+<input type="button" value="Add" style="background-color: green; color: white" onclick="addNewProduct()"><br>
+<p>Display All Product</p>
+<span id="soLuong"></span><span> products </span><br>
+<p id="display"></p>
+<script>
+    let listProduct = ["Sony Xperia", "Samsung Galaxy", "Nokia 6", "Xiaomi Redmi Note 4", "Nokia 6",
+        "Apple iPhone 6S", "Xiaomi Mi 5s Plus", "Apple iPhone 8 Plus", "Fujitsu F-04E", "Oppo A71"];
+    display(listProduct);
+    function addNewProduct() {
+        let newName = document.getElementById("nhap").value;
+        if (newName!=""){
+            listProduct.push(newName);
+        }else {
+            alert("Cần nhập tên sản phẩm")
+        }
+        document.getElementById("nhap").value="";
+        display(listProduct);
+
+    }
+    function display(list) {
+        let tableString = '<table border="1" style="border-collapse: collapse">\n' ;
+        for (let i = 0; i < list.length; i++) {
+            tableString += '<tr>\n' +
+                '<td style="width: 300px;">' + list[i] + '</td>\n' +
+                '<td style="width: 100px; text-align: center"><input type="button" style="background-color: green; color: white"  value="Edit" onclick="editProduct('+i+')"></td>\n' +
+                '<td style="width: 100px; text-align: center"><input type="button" style="background-color: green; color: white"  value="Delete" onclick="deleteProduct('+i+')"></td>\n' +
+                '</tr>';
+        }
+        tableString += '</table>';
+        document.getElementById("display").innerHTML = tableString;
+        document.getElementById("soLuong").innerText = list.length;
+    }
+    function deleteProduct(index) {
+        let conf= confirm("Bạn có muốn xóa sản phẩm "+listProduct[index]);
+        if (conf){
+            listProduct.splice(index,1);
+        }else {
+            alert("Bạn đã không xóa ");
+        }
+        display(listProduct);
+    }
+    function editProduct(index) {
+        let editName = prompt("Nhập tên bạn muốn sửa: ");
+        if (editName!=null && editName!=""){
+            listProduct[index] =editName;
+        }
+        display(listProduct);
+
+    }
+</script>
+</body>
+</html>
+</body>
+</html>

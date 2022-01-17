@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chu vi, diện tích hình tròn</title>
+</head>
+<body>
+<!--Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+<script>
+    function tinhChuVi(r) {
+        let chuVi= r*2*3.14;
+        document.write("Chu vi hình tròn bán kính " +r + " là: "+ chuVi + "<br>");
+    }
+    function tinhDienTich(r){
+        let dienTich=r*r*3.14;
+        document.write("Diện tích hình tròn bán kính " +r + " là: "+ dienTich);
+    }
+    let banKinh= parseInt(prompt("Nhập vào bán kính hình tròn"));
+    let result1=tinhChuVi(banKinh);
+    let result2=tinhDienTich(banKinh);
+</script>
+</body>
+</html>

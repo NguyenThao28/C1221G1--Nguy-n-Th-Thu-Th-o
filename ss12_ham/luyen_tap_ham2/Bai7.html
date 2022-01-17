@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đổi chỗ hai số nguyên</title>
+</head>
+<body>
+<!--Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.-->
+<script>
+    function changeNum(a,b) {
+        let temp=a;
+        a=b;
+        b=temp;
+        document.write("Hai số sau khi đổi chỗ là: " +a+ "," +b);
+    }
+    let num1= parseInt(prompt("Nhập vào số thứ nhất "));
+    let num2= parseInt(prompt("Nhập vào số thứ hai "));
+    let result = changeNum(num1,num2);
+</script>
+</body>
+</html>

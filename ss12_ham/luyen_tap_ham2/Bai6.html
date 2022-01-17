@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số</title>
+</head>
+<!--Viết hàm nhận vào một số, kiểm tra xem nếu số đưa vào có phải là nguyên dương không.-->
+<!--Nếu là nguyên dương trả về true, ngược lại trả về false.-->
+<body>
+<script>
+    function checkNum(n) {
+        let flag=true;
+        if(n>0){
+            flag=true;
+        }else{
+            flag=false;
+        }
+        return flag;
+    }
+    let num=parseInt(prompt("Nhập vào một số"));
+    let result=checkNum(num);
+    alert(result);
+</script>
+</body>
+</html>
