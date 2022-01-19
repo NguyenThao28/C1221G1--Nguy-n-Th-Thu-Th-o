@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8b99f2-a3e0-4fb4-a559-ead4d4d392d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/bai_tap/QuanLySanPham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_ham/luyen_tap_ham2/Bai9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/VeHinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss13_oop/thuc_hanh/FunnyCircles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bai_tap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +37,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss12_ham/thuc_hanh/TaoVaGoiHam.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss13_oop/thuc_hanh/XayDungLopDate.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,6 +85,8 @@
       <workItem from="1642123869432" duration="1466000" />
       <workItem from="1642134731353" duration="12445000" />
       <workItem from="1642382513266" duration="24184000" />
+      <workItem from="1642481508217" duration="7028000" />
+      <workItem from="1642554958848" duration="12782000" />
     </task>
     <servers />
   </component>
@@ -108,10 +102,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1642071639306" />
-    <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1642134891838">
+    <state x="447" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1642586990240">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1642134891838" />
+    <state x="447" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1642586990240" />
+    <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1642496858596">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1642496858596" />
     <state x="151" y="0" key="SettingsEditor" timestamp="1642063301984">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -120,9 +118,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="451" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1641281859243" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642404017624">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1642581667396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1642404017624" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1642581667396" />
   </component>
 </project>
