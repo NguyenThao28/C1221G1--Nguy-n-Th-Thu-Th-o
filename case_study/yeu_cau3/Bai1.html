@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<!--Cho mảng a chỉ chứa các số nguyên-->
+<!--Xây dựng mảng b là prefix sums của mảng a cụ thể theo công thức:-->
+<!--b[0]   = a[0]-->
+<!--b[1]   = a[0] + a[1]-->
+<!--b[2]   = a[0] + a[1] + a[2]-->
+<!--...-->
+<!--b[n - 1] = a[0] + a[1] + ... + a[n - 1]-->
+<!--với n là độ dài của mảng a.-->
+<!--Ví dụ: Cho a = [1, 2, 3], thì kết quả prefixSums(a) = [1, 3, 6].-->
+<!--Mảng b được tạo ra: [1, 1 + 2, 1 + 2 + 3] = [1, 3, 6]-->
+<script>
+let a=[1,2,5,7,9];
+let b=[];
+let sum=0;
+for (let i=0;i<a.length;i++){
+    for (let j=0;j<=i;j++){
+        sum+=a[j];
+    }
+    b.push(sum);
+    sum=0;
+}
+alert(b);
+</script>
+</body>
+</html>

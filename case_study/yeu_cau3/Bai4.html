@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<!--Viết một chương trình nhập một số từ bàn phím và in ra màn hình bằng chữ.-->
+<!--Ví dụ 1234, kết quả in ra màn hình là một hai ba bốn.-->
+<script>
+    let str=prompt("Nhập vào một dãy số: ");
+    let arr1=["0","1","2","3","4","5","6","7","8","9"];
+    let arr2=["không","một","hai","ba","bốn","năm","sáu","bảy","tám","chín"];
+    arr=str.split("");
+    arr3=[];
+    for (let i=0;i<arr.length;i++){
+        for(let j=0;j<arr1.length;j++){
+            if(arr[i]==arr1[j]){
+                arr3.push(arr2[j]);
+            }
+        }
+    }
+    alert(arr3.join(" "));
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let doUong = ["Cafe", "Cam vắt", "Nước ép cà rốt", "Nước ép cà chua",
+        "Nước lọc", "NƯớc dừa"];
+    let gia = [15, 20, 20, 20, 10, 15];
+    let listDoUong = ""
+    let chooseDrink = [];
+    for (let i = 0; i < doUong.length; i++) {
+        listDoUong += "\n" + (i + 1) + "." + doUong[i] + " giá " + gia[i];
+    }
+    let tongTien = 0;
+    do {
+        let choose = prompt(listDoUong + "\n" + ((doUong.length + 1) + ".Exit"));
+        chooseDrink.push(doUong[choose - 1]);
+        if (choose == doUong.length + 1) {
+            break;
+        }
+        let soLuong = prompt("Nhập vào số lượng cho đồ uống: " + doUong[choose - 1]);
+            tongTien += soLuong * gia[choose - 1];
+    } while (true)
+
+    alert(chooseDrink + "tổng tiền hóa đơn là: " + tongTien);
+</script>
+</body>
+</html>
