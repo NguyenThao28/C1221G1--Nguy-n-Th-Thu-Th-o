@@ -17,14 +17,11 @@
 <!--Mảng b được tạo ra: [1, 1 + 2, 1 + 2 + 3] = [1, 3, 6]-->
 <script>
 let a=[1,2,5,7,9];
-let b=[];
-let sum=0;
-for (let i=0;i<a.length;i++){
-    for (let j=0;j<=i;j++){
-        sum+=a[j];
-    }
+let b=[1];
+let sum=1;
+for (let i=1;i<a.length;i++){
+        sum+=a[i];
     b.push(sum);
-    sum=0;
 }
 alert(b);
 </script>
