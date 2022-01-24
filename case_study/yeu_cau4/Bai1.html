@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<!--Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành xâu sao cho trong xâu không có 2 dấu cách liền nhau-->
+<!--và bắt đầu mỗi từ phải in hoa. Ví dụ tRuong    TaN   HAI => Truong Tan Hai.-->
+<!--Và một hàm tìm từ dài nhất trong 1 xâu ký tự. Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím,-->
+<!--in ra xâu trước và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó.-->
+
+<script>
+    let str= prompt("Nhập vào một xâu kí tự");
+    alert("Xâu trước: "+str);
+    function inHoaChu(str){
+        let str1= str.trim().replace(/\s+/g, ' ');
+        let arr = str1.toLowerCase().split(' ');
+        for (let i = 0; i < arr.length; i++) {
+            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].substring(1);
+        }
+        return arr.join(' ');
+    }
+    function timTuDaiNhat(str){
+        let arr=str.split(' ');
+        let maxLength=arr[0];
+        for (let i=1;i<arr.length;i++){
+            if(arr[i].length>maxLength.length){
+                maxLength=arr[i];
+            }
+            return maxLength;
+        }
+    }
+    let str2=inHoaChu(str);
+    let str3=timTuDaiNhat(str);
+    alert("Xâu sau: " +str2);
+    alert("Từ dài nhất trong xâu: "+str3);
+</script>
+</body>
+</html>

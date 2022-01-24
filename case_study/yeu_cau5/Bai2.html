@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<!--Viết hàm liệt kê các số nguyên tố trong mảng 2 chiều, đếm các số nguyên tố có trong mảng đó.-->
+<script>
+    let arr=[
+        [2,3,4,5,6,7,8,9],
+        [3,4,5,6,9,11,12,13],
+        [11,12,13,14,15,16,17]
+    ];
+    let arr1=[];
+    let flag=true;
+    let count=0;
+    for (let i=0;i<arr.length;i++){
+        for(let j=0;j<arr[i].length;j++){
+            if (arr[i][j]<2){
+                flag=false;
+            }else{
+                for(let k=2;k<arr[i][j];k++){
+                    if(arr[i][j]%k===0){
+                        flag=false;
+                        break;
+                    }else{
+                        flag=true;
+                    }
+                    }
+                }
+            if(flag){
+                count++;
+                arr1.push(arr[i][j]);
+            }
+        }
+    }
+    alert("Số phần tử số nguyên tố trong mảng là: "+count);
+    alert("Đó là các số: "+arr1);
+</script>
+</body>
+</html>

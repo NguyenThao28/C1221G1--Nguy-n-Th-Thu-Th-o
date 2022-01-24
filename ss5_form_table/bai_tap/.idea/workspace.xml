@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8b99f2-a3e0-4fb4-a559-ead4d4d392d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../case_study/yeu_cau3/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/yeu_cau3/Bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/yeu_cau3/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/yeu_cau3/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/yeu_cau4/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study/yeu_cau4/Bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10_vong_lap2/SoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_vong_lap2/SoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10_vong_lap2/luyen_tap_vong_lap2/InHinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_vong_lap2/luyen_tap_vong_lap2/InHinhChuNhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss10_vong_lap2/luyen_tap_vong_lap2/InTamGiac.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss10_vong_lap2/luyen_tap_vong_lap2/InTamGiac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss11_mang/luyen_tap_mang2/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_mang/luyen_tap_mang2/Bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +88,7 @@
       <workItem from="1642554958848" duration="12966000" />
       <workItem from="1642641454835" duration="3386000" />
       <workItem from="1642727931432" duration="24868000" />
-      <workItem from="1642926259997" duration="304000" />
+      <workItem from="1642926259997" duration="27663000" />
     </task>
     <servers />
   </component>
@@ -96,10 +100,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="130" key="#Web_Browsers/0.0.1280.680@0.0.1280.680" timestamp="1642071592554" />
-    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642071639306">
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643016259651">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1642071639306" />
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1643016259651" />
     <state x="447" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1642586990240">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -108,10 +112,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1642496858596" />
-    <state x="151" y="0" key="SettingsEditor" timestamp="1642063301984">
+    <state x="151" y="0" key="SettingsEditor" timestamp="1643016237888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="151" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1642063301984" />
+    <state x="151" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1643016237888" />
     <state x="451" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1641281859243">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
