@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tam giác</title>
+    <title>Bai 4</title>
 </head>
 <body>
 <script>
     const h=5;
-    for(let i=0;i<h;i++){
-        for(let j=0;j<=i;j++){
-            if(i==1 ||i==4|| j==0|| j==i){
+    for (let i=1;i<=h;i++){
+        for (let k=h;k>i;k--){
+            document.write("&nbsp&nbsp");
+        }
+        for(let j=1;j<=2*i-1;j++){
+            if(i==1 || i==h || j==1 ||j==2*i-1){
                 document.write("*");
             }else{
                 document.write("&nbsp&nbsp");
