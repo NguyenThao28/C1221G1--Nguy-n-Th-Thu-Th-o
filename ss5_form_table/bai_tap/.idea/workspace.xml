@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8b99f2-a3e0-4fb4-a559-ead4d4d392d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/AdamEva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/BongDen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/TomVaJerry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/XeMay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss13_oop/bai_tap/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss13_oop/bai_tap/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study/yeu_cau1/Bai5.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +84,7 @@
       <workItem from="1642641454835" duration="3386000" />
       <workItem from="1642727931432" duration="24868000" />
       <workItem from="1642926259997" duration="28308000" />
-      <workItem from="1643038057993" duration="8585000" />
+      <workItem from="1643038057993" duration="22088000" />
     </task>
     <servers />
   </component>
